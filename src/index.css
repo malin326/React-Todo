@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  
+}
+.main>h1{
+  color:red;
+}
+.content {
+  
+  border-radius: 5px;
+  font-size: 20px;
+  background-color:lightgrey;
+  padding: 20px;
+  text-align: left;
+  margin: auto;
+  width: fit-content;
+}
+table {
+  width: 100%;
+}
+td:first-child {
+  width: 100%;
+}
+td:last-child {
+  min-width: 125px;
+}
+th {
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color:lightgrey;
+}
+input,
+button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px #c0c0c0 solid;
+}
+button {
+  cursor: pointer;
+}
+button.add {
+  background-color:limegreen;
+  color: #ffffff;
+}
+
+button.edit {
+  background-color: gray;
+  color: #ffffff;
+}
+
+button.delete {
+  background-color: green;
+  color: #ffffff;
+}
+
+button.save {
+  background-color:yellowgreen;
+  color: #ffffff;
+  border: none;
+  padding-left: 3px;
+  
+}
+
+/* button.back {
+  background-color: #707080;
+  color: #ffffff;
+} */
+button.close{
+  background-color:black;
+  color:lightgray;
+  border: none;
+}
+.task {
+  cursor: pointer;
+}
+/*
+.completed {
+  text-decoration: line-through;
+}
+*/
+.modal {
+  font-size: 12px;
+  width: 100%;
+ 
+  
+}
+.modal > .header {
+  width: 50%;
+ 
+  font-size: 18px;
+  text-align: left;
+  padding: 2px;
+}
+.modal > .content {
+  width: 50%;
+  padding: 20px 5px;
+  margin: auto;
+
+}
+.modal > .actions {
+  width: 100%;
+  padding: 20px 5px;
+  margin: auto;
+  text-align: center;
+}
+
+/* .modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+   /* background-color:palegreen;
+ border: none;
+ text-align: center;  
+}
+ */
+  
+ 
